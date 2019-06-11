@@ -6,30 +6,37 @@
   box-sizing: border-box;
 }
 body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+      "Lucida Grande", "Segoe UI";
   font-size: 16px
 }
 
 h1 {
-  font-family: sans-serif;
+  font-weight: bold;
   font-size: 1.250em;
   color: #ffffff;
 }
 
 h2 {
-    font-family: sans-serif;
+
     font-size: 1.063em;
   }
 
 h3 {
-    font-family: sans-serif;
     font-size: .938em;
+    color: #8C8C8C;
   }
 
   hr{
     display: flex;
     background-color: #8C8C8C;
-
   }
+
+  br {
+    display: block;
+    content: "";
+    margin-top: 7%;
+}
 
 div {
   width: 100%;
@@ -105,6 +112,7 @@ height: 667px;
   bottom: 0px;
   width: 100%;
   height: 35%;
+  overflow-y: scroll;
 
 }
 
@@ -115,29 +123,61 @@ height: 667px;
   margin-top: 5%;
   border-radius: 15px;
   background-color: #ffffff;
-  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-direction: row;
 }
+
+.information_bottom{
+  position: absolute;
+  margin-top: 15%;
+  padding-top: 6%;
+  display: flex;
+  width: 95%;
+  border-top: .5px solid grey;
+
+
+}
+ .information_rightcolumn{
+   position: absolute;
+   display: flex;
+
+ }
+
 .bus_line{
-  text-align: left;
-  margin-left: 2%;
+  margin-left: 3%;
   padding-top: 2%;
-  position: relative;
+  padding-bottom: 1%;
 }
 
 .destination{
-  float: left;
-  margin-left: 2%;
-  padding-top: 2%;
+  margin-left: 3%;
+  align-self: flex-end;
+  margin-bottom: 50%;
+  word-wrap: break-word;
+
 }
 
 .frequency{
-  float: right;
+  padding-top: 2%;
+  margin-left: 76%;
 }
 
+
 .direction{
-  float: left;
+  color: #067FB3;
+  margin-left: 3%;
+  margin-right: 12%;
+}
+
+.direction_incorrect{
+  color: #C74343;
+  margin-left: 3%;
+  margin-right: 12%;
 }
 
 .eta{
-  text-align: center;
+
 }
