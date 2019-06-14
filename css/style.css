@@ -5,14 +5,29 @@
 *, *:before, *:after {
   box-sizing: border-box;
 }
+
+@font-face {
+font-family: "San Francisco Regular";
+src: url(/San_Francisco_Pro/SF-Pro-Text-Regular.otf);
+}
+
+@font-face {
+font-family: "San Francisco Light";
+src: url(/San_Francisco_Pro/SF-Pro-Text-Light.otf);
+}
+
+@font-face {
+font-family: "San Francisco Bold";
+src: url(/San_Francisco_Pro/SF-Pro-Text-Bold.otf);
+}
+
 body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue",
-      "Lucida Grande", "Segoe UI";
+  font-family: "San Francisco Regular";
   font-size: 16px
 }
 
 h1 {
-  font-weight: bold;
+  font-family: "San Francisco Bold";
   font-size: 1.250em;
   color: #ffffff;
 }
@@ -35,7 +50,7 @@ h3 {
   br {
     display: block;
     content: "";
-    margin-top: 7%;
+    margin-top: 11%;
 }
 
 div {
@@ -52,6 +67,7 @@ margin-left: 5%
 
 .container {
 position: relative;
+margin: 0 auto;
 width: 375px;
 height: 667px;
 }
@@ -73,7 +89,7 @@ height: 667px;
   display: inline-block;
 
   margin-top: 25%;
-  background-image: url("../images/Map.png");
+  background-image: url("/images/Map.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -81,10 +97,11 @@ height: 667px;
 .header_text{
   text-align: center;
   margin-top: 10%;
-  margin-left: 14%
+  margin-left: 13%
 }
 
 .walking_time{
+  font-family: "San Francisco Light";
   width: 100%;
   height: 40%;
   display: flex;
@@ -95,7 +112,7 @@ height: 667px;
 .walk_text{
   color: #ffffff;
   text-align: center;
-  margin-left: 3%;
+  margin-left: 5%;
   margin-top: 3%;
 }
 
@@ -113,6 +130,7 @@ height: 667px;
   width: 100%;
   height: 35%;
   overflow-y: scroll;
+  overflow-x: hidden;
 
 }
 
@@ -149,10 +167,11 @@ height: 667px;
 .bus_line{
   margin-left: 3%;
   padding-top: 2%;
-  padding-bottom: 1%;
+  padding-bottom: 2%;
 }
 
 .destination{
+  font-family: "San Francisco Light";
   margin-left: 3%;
   align-self: flex-end;
   margin-bottom: 50%;
@@ -161,7 +180,8 @@ height: 667px;
 }
 
 .frequency{
-  padding-top: 2%;
+  font-family: "San Francisco Light";
+  padding-top: 2.3%;
   margin-left: 76%;
 }
 
