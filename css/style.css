@@ -74,7 +74,6 @@ height: 667px;
 
 .header {
   background-color: #11B8FF;
-  position: absolute;
   display: flex;
   width: 100%;
   height: 15%;
@@ -86,10 +85,7 @@ height: 667px;
 .map{
   width: 100%;
   height: 45%;
-  display: inline-block;
-
-  margin-top: 25%;
-  background-image: url("/images/Map.png");
+  background-image: url("../images/Map.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
