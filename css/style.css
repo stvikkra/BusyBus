@@ -8,17 +8,17 @@
 
 @font-face {
 font-family: "San Francisco Regular";
-src: url(/San_Francisco_Pro/SF-Pro-Text-Regular.otf);
+src: url(../San_Francisco_Pro/SF-Pro-Text-Regular.otf);
 }
 
 @font-face {
 font-family: "San Francisco Light";
-src: url(/San_Francisco_Pro/SF-Pro-Text-Light.otf);
+src: url(../San_Francisco_Pro/SF-Pro-Text-Light.otf);
 }
 
 @font-face {
 font-family: "San Francisco Bold";
-src: url(/San_Francisco_Pro/SF-Pro-Text-Bold.otf);
+src: url(../San_Francisco_Pro/SF-Pro-Text-Bold.otf);
 }
 
 body {
