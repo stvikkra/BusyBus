@@ -1,5 +1,5 @@
 # BusyBus
-## The process of building an app for iOs
+## The process of building an app for iOS
 
 ###### Discovery and Research
 - [User Survey](https://forms.gle/DsXwNbhPbhLAVPnv5)
